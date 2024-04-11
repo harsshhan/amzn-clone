@@ -35,10 +35,13 @@ nav{
     max-width: 1000px;
     border-radius: 4px;
 }
+.nav-search:hover{
+    border: 2px solid orange;
+}
 .nav-search-category{
     display: flex;
     align-items: center;
-    padding: 12px 10px;
+    padding: 13px 10px;
     gap: 5px;
     background: #e5e5e5;
     border-radius: 4px 0px 0px 4px;
@@ -51,7 +54,7 @@ nav{
 }
 .nav-search-icon{
     max-width: 22px;
-    padding: 10px;
+    padding: 11px;
     background-color: #ffd64f;
     border-radius: 0px 4px 4px 0px;
 }
@@ -75,6 +78,12 @@ nav{
     display: flex;
     align-items: center;
     margin: 0px 15px;
+    font-size: 0.85rem;
+    font-weight: 800;
+}
+.nav-cart i{
+    font-size: 30px;
+    color: white;
 }
 .nav-down{
     display: flex;
